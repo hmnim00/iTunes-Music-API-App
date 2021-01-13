@@ -1,0 +1,139 @@
+@include media-md {
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .playlist {
+        padding: 1rem 2rem;
+        height: 84vh;
+    }
+
+    .about {
+        h2 {
+            font-size: 3rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+        &__image {
+            padding: 4rem 5rem;
+        }
+    }
+}
+
+@include media-lg {
+    .playlist {
+        padding: 2rem 2rem;
+
+        &__track {
+            height: 5rem;
+
+            &--album {
+                height: 4rem;
+                width: 4rem;
+            }
+
+            &--info {
+                span {
+                    font-size: 1.4rem;
+                    margin-bottom: .5rem;
+                }
+                div > span {
+                    font-size: 1.3rem;
+                    margin-right: .8rem;
+                }
+            }
+        }
+    }
+
+    .about {
+        h2 {
+            font-size: 3rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+        &__image {
+            padding: 4rem 10rem;
+        }
+    }
+}
+
+@include media-xl {
+    .playlist {
+        padding: 2rem 15rem;
+
+        &__track {
+            &--album {
+                height: 4rem;
+                width: 4rem;
+
+                .playBtn {
+                    button {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            &--info {
+                span {
+                    font-size: 1rem;
+                    margin-bottom: .5rem;
+                }
+                div > span {
+                    font-size: 1rem;
+                    margin-right: .8rem;
+                }
+            }
+        }
+    }
+
+    .about {
+        h2 {
+            font-size: 3rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+        &__image {
+            padding: 2rem 15rem;
+        }
+    }
+}
+
+@include media-xxl {
+    .playlist {
+        padding: 0rem 22rem;
+        &__track {
+            &--album {
+                .playBtn {
+                    button {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .about {
+        h2 {
+            font-size: 3rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+        &__image {
+            padding: 3rem 22rem;
+        }
+    }
+}

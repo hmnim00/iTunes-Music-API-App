@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTunes Music API Search</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="home">
+            <a href="/">
+                <h2>iTunes Music API search</h2>
+            </a>
+            <div class="home__search">
+                <input type="text" class="home__search--input" id="input" placeholder="Search artist" required>
+                <button type="submit" class="home__search--button" onclick="getData()">Search</button>
+            </div>
+        </div>
+
+        <div id="output" class="playlist">
+            <div class="about">
+                <h2>iTunes Music API search</h2>
+                <h4>Search by artist or song name.</h4>
+                <div class="about__image">
+                    <img src="https://apple-resources.s3.amazonaws.com/medusa/production/images/5f62506b3b5a110001b4556c/en-us-large@1x.png"
+                        alt="https://apple-resources.s3.amazonaws.com/medusa/production/images/5f62506b3b5a110001b4556c/en-us-large@1x.png">
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            &copy; MF 2021
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

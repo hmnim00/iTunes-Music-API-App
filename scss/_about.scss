@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        margin-top: 2rem;
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    &__image {
+        padding: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
