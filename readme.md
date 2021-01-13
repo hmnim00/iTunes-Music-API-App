@@ -2,10 +2,6 @@
 
 Project made with javascript that allows to find songs in iTunes Music library and play their previews.
 
-```bash
-pip install foobar
-```
-
 ## Usage
 
 ```
